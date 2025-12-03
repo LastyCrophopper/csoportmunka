@@ -30,5 +30,8 @@ nav{
 nav a{
     text-decoration: none;
     background-color: #371818;
+    width: 428px;
+    height: 75px;
+    border-radius: 149px;
     
 }
