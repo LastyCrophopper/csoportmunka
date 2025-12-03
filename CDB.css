@@ -1,5 +1,5 @@
 *{
-    font-family: italianno
+    max-width:  1000px;
 }
 img{
     max-width: 350px;
@@ -20,18 +20,19 @@ nav{
     color: white;
     padding: 8px;
     padding-top:  16px;
-    margin: auto;
+    text-align: center;
     border: 16px;
     width: 1920px;
     height: 100px;
-    text-align: center;
-    
+    margin: auto;
 }
 nav a{
     text-decoration: none;
-    background-color: #371818;
-    width: 428px;
+    background-color: #775C44;
+    width: 328px;
     height: 75px;
     border-radius: 149px;
-    
+    padding: 8px;
+    gap: 70px;
+    border: 16px;
 }
