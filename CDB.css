@@ -1,5 +1,6 @@
 *{
     max-width:  1000px;
+    
     font-family: 'Italianno';
 }
 @font-face {
@@ -12,11 +13,11 @@ img{
 header{
     background-color: rgba(93, 76, 76, 1);
     color: white;
-    padding: 8px;
-    padding-top:  16px;
-    padding-bottom:  16px;
+    padding: 4px;
+    padding-top:  8px;
+    padding-bottom:  8px;
     margin: auto;
-    border: 16px;
+    border: 8px;
     width: 1920px;
     height: 100px;
     text-align: center;
@@ -44,6 +45,8 @@ nav a{
     color: white;
     border-radius: 149px;
     padding: 8px;
+    padding-left: 42px;
+    padding-right: 42px;
     gap: 50px;
     border: 16px;
 }
@@ -62,20 +65,26 @@ p{
     font-size: 25px;
 }
 table{
-    color: #818181;
+    
     margin: auto;
     border-spacing: 0px;
-    font-size: medium;
+    font-size: large;
     
 }
 th{
+    background-color: #4d2222;
+    font-size: x-large;
+}
+td{
     background-color: #371818;
+    
 }
 tr th, td{
     border: 2px solid black;
     border-bottom: 2px solid black;
     text-align: center;
-    color: #818181;
+    color: white
+    
 }
 section{
     grid-area: s;
@@ -86,14 +95,14 @@ aside{
 main{
     grid-area: m;
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:300px){
     main{
     grid-template-columns: 1fr;
     grid-template-areas: 
     "h"
     "n"
     "a"
-    "as"
-    "f";
+    "m"
+    "s";
     }
 }
