@@ -21,7 +21,7 @@ header{
     height: 100px;
     text-align: center;
     grid-area: h;
-    font-size: 25px;
+    font-size: 20px;
 }
 nav{
     background-color: rgba(55, 24, 24, 1);
@@ -34,15 +34,17 @@ nav{
     height: 100px;
     margin: auto;
     grid-area: n;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "n n";
 }
 nav a{
     text-decoration: none;
     background-color: #775C44;
-    width: 328px;
-    height: 75px;
+    color: white;
     border-radius: 149px;
     padding: 8px;
-    gap: 70px;
+    gap: 50px;
     border: 16px;
 }
 body{
@@ -57,6 +59,7 @@ body{
 }
 p{
     color: #775C44;
+    font-size: 25px;
 }
 table{
     color: #818181;
