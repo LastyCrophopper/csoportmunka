@@ -1,6 +1,10 @@
 *{
     max-width:  1000px;
+    @font-face 
+    font-family: 'Italianno';
+    src: url(font/Italianno-Regular.ttf);
 }
+
 img{
     max-width: 350px;
 }
@@ -35,4 +39,24 @@ nav a{
     padding: 8px;
     gap: 70px;
     border: 16px;
+}
+body{
+    background-color: #241919;
+}
+p{
+    color: #775C44;
+}
+table{
+    color: #818181;
+    margin: auto;
+    border-spacing: 0px;
+}
+th{
+    background-color: #371818;
+}
+tr th, td{
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    color: #818181;
 }
