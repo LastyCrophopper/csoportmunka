@@ -1,37 +1,45 @@
-*{
+main{
     max-width: 1920px;
+    margin: 0 ,auto;
+    padding: 0, 20px;
 }
+
 
 @font-face {
     font-family: 'Italianno';
     src: url(font/Italianno-Regular.ttf);
 }
-h1{
+
+
+h1 {
     text-align: center;
 }
-header{
-    font-family: 'Italianno';
-    background-color: rgba(93, 76, 76);
-    color: rgb(228, 223, 223);  
-    width: 100%;       
-    margin: 0;        
-    padding: 5px;
-    box-sizing: border-box;
-    font-size: 20px;
-}
+
+
 body {
-    margin: 0;         
+    margin: 0;
     padding: 0;
 }
 
-nav a{
+header {
+    font-family: 'Italianno';
+    background-color: rgba(93, 76, 76);
+    color: rgb(228, 223, 223);
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;                
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav a {
     text-decoration: none;
     color: white;
-    border: rgba(119, 92, 68);
-    padding: 20px;
     background-color: rgba(119, 92, 68);
+    padding: 20px 40px;
     border-radius: 50px;
     font-size: 50px;
-    gap: 10px;
-    text-align:calc();
+    display: inline-block;
+    margin-top: -10px;      
 }
