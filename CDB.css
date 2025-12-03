@@ -17,6 +17,18 @@ header{
 }
 nav{
     background-color: rgba(55, 24, 24, 1);
+    color: white;
+    padding: 8px;
+    padding-top:  16px;
+    margin: auto;
+    border: 16px;
     width: 1920px;
     height: 100px;
+    text-align: center;
+    
+}
+nav a{
+    text-decoration: none;
+    background-color: #371818;
+    
 }
