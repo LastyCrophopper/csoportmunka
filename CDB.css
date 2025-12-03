@@ -1,3 +1,22 @@
+*{
+    font-family: italianno
+}
 img{
     max-width: 350px;
+}
+header{
+    background-color: rgba(93, 76, 76, 1);
+    color: white;
+    padding: 8px;
+    padding-top:  16px;
+    margin: auto;
+    border: 16px;
+    width: 1920px;
+    height: 100px;
+    text-align: center;
+}
+nav{
+    background-color: rgba(55, 24, 24, 1);
+    width: 1920px;
+    height: 100px;
 }
