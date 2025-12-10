@@ -42,9 +42,7 @@ header{
     padding: 4px;
     padding-top:  8px;
     padding-bottom:  8px;
-   
     border: 8px;
-    
     height: 100px;
     text-align: center;
     grid-area: h;

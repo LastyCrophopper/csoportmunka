@@ -8,8 +8,10 @@
     font-family: 'Italianno';
 }
 body{
+    
     background-image: url(kepek/fooldal_backgound.png);
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 header{
@@ -20,38 +22,39 @@ header{
     padding-bottom:  8px;
     margin: auto;
     border: 8px;
-    width: 1920px;
     height: 100px;
     text-align: center;
     grid-area: h;
-    font-size: 20px;
+    font-size: 80px;
 }
-
+main{
+    width:100%;
+}
 nav{
-    
     color: white;
     padding: 8px;
     padding-top:  16px;
     text-align: center;
     border: 16px;
-    width: 1920px;
-    height: 100px;
     margin: auto;
     grid-area: n;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "n n";
 }
-
-a{
+nav a{
+    background-color: #371818;
     color: white;
-    background-color: rgba(93, 76, 76, 1);
-    text-decoration: none;
     border-radius: 149px;
     padding: 15px;
-    margin: auto
-}
+    padding-left: 42px;
+    padding-right: 42px;
+    gap: 50px;
+    border: 16px;
+    text-decoration: none;
+    margin: auto;
 
+}
 @media (max-width: 768px){
     nav{
         grid-template-columns: 1fr;
