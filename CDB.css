@@ -1,108 +1,69 @@
-*{
-    max-width:  1000px;
-    
-    font-family: 'Italianno';
+/* CDB.css */
+aside {
+grid-area: a;
+padding: 10px;
 }
-@font-face {
-    font-family: 'Italianno';
-    src: url(font/Italianno-Regular.ttf);
+
+
+aside img {
+max-width: 100%;
+border-radius: 10px;
 }
-img{
-    max-width: 350px;
+
+
+main {
+grid-area: m;
+padding: 10px;
 }
-header{
-    background-color: rgba(93, 76, 76, 1);
-    color: white;
-    padding: 4px;
-    padding-top:  8px;
-    padding-bottom:  8px;
-    margin: auto;
-    border: 8px;
-    width: 1920px;
-    height: 100px;
-    text-align: center;
-    grid-area: h;
-    font-size: 20px;
+
+
+p {
+color: #775C44;
+font-size: 24px;
 }
-nav{
-    background-color: rgba(55, 24, 24, 1);
-    color: white;
-    padding: 8px;
-    padding-top:  16px;
-    text-align: center;
-    border: 16px;
-    width: 1920px;
-    height: 100px;
-    margin: auto;
-    grid-area: n;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "n n";
+
+
+section {
+grid-area: s;
+padding: 10px;
 }
-nav a{
-    text-decoration: none;
-    background-color: #775C44;
-    color: white;
-    border-radius: 149px;
-    padding: 8px;
-    padding-left: 42px;
-    padding-right: 42px;
-    gap: 50px;
-    border: 16px;
+
+
+table {
+width: 100%;
+border-collapse: collapse;
+text-align: center;
 }
-body{
-    background-color: #241919;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
-    " h h"
-    " n n"
-    " a m "
-    " a s";
+
+
+th {
+background-color: #4d2222;
+color: white;
+font-size: 22px;
 }
-p{
-    color: #775C44;
-    font-size: 25px;
+
+
+td {
+background-color: #371818;
+color: white;
+font-size: 20px;
 }
-table{
-    
-    margin: auto;
-    border-spacing: 0px;
-    font-size: large;
-    
+
+
+th, td {
+border: 2px solid black;
+padding: 8px;
 }
-th{
-    background-color: #4d2222;
-    font-size: x-large;
+
+
+@media screen and (max-width: 700px) {
+.container {
+grid-template-columns: 1fr;
+grid-template-areas:
+"h"
+"n"
+"a"
+"m"
+"s";
 }
-td{
-    background-color: #371818;
-    
-}
-tr th, td{
-    border: 2px solid black;
-    border-bottom: 2px solid black;
-    text-align: center;
-    color: white
-    
-}
-section{
-    grid-area: s;
-}
-aside{
-    grid-area: a;
-}
-main{
-    grid-area: m;
-}
-@media screen and (max-width:300px){
-    main{
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "h"
-    "n"
-    "a"
-    "m"
-    "s";
-    }
 }
