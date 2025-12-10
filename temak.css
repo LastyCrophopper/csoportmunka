@@ -37,7 +37,8 @@ nav a {
     text-decoration: none;
     color: white;
     background-color: rgba(119, 92, 68);
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
     border-radius: 50px;
     font-size: 50px;
     display: inline-block;
