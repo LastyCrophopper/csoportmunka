@@ -51,3 +51,36 @@ a{
     padding: 15px;
     margin: auto
 }
+
+@media (max-width: 768px){
+    nav{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    header{
+        font-size: 1.6rem;
+        padding: 15px;
+    }
+
+    a{
+        font-size: 1.2rem;
+        padding: 12px;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 480px){
+    header{
+        font-size: 1.4rem;
+    }
+
+    nav{
+        padding: 30px 10px;
+    }
+
+    a{
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+}
