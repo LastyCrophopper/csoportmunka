@@ -110,4 +110,36 @@ tr th, td{
     "m"
     "s";
     }
+  nav a {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+ 
+    p {
+        font-size: 20px;
+    }
+}
+ 
+@media screen and (max-width: 500px) {
+    header h1 {
+        font-size: 22px;
+    }
+ 
+    nav {
+        gap: 10px;
+    }
+ 
+    nav a {
+        font-size: 16px;
+        padding: 6px 14px;
+    }
+ 
+    th, td {
+        font-size: 16px;
+        padding: 6px;
+    }
+ 
+    p {
+        font-size: 18px;
+    }
 }
