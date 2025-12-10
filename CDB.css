@@ -1,71 +1,115 @@
-/* CDB.css */
-aside {
-grid-area: a;
-padding: 10px;
+*{
+    font-family: 'Italianno';
+}
+@font-face {
+    font-family: 'Italianno';
+    src: url(font/Italianno-Regular.ttf);
+}
+body{
+     background-color: #241919;
+     margin: 0;
 }
 
-
-aside img {
-max-width: 100%;
-border-radius: 10px;
+main{
+    width:100%;
+    background-color: #241919;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    " h h"
+    " n n"
+    " a ar "
+    " a s";
 }
 
-
-main {
-grid-area: m;
-padding: 10px;
+section{
+    grid-area: s;
+}
+aside{
+    grid-area: a;
+}
+article{
+    grid-area: ar;
 }
 
-
-p {
-color: #775C44;
-font-size: 24px;
+img{
+    max-width: 350px;
+}
+header{
+    background-color: rgba(93, 76, 76, 1);
+    color: white;
+    padding: 4px;
+    padding-top:  8px;
+    padding-bottom:  8px;
+   
+    border: 8px;
+    
+    height: 100px;
+    text-align: center;
+    grid-area: h;
+    font-size: 20px;
+}
+nav{
+    background-color: rgba(55, 24, 24, 1);
+    color: white;
+    padding: 8px;
+    padding-top:  16px;
+    text-align: center;
+    border: 16px;
+    height: 100px;
+    grid-area: n;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "n n";
+}
+nav a{
+    text-decoration: none;
+    background-color: #775C44;
+    color: white;
+    border-radius: 149px;
+    padding: 8px;
+    padding-left: 42px;
+    padding-right: 42px;
+    gap: 50px;
+    border: 16px;
 }
 
-
-section {
-grid-area: s;
-padding: 10px;
+p{
+    color: #775C44;
+    font-size: 25px;
+}
+table{
+    margin: auto;
+    border-spacing: 0px;
+    font-size: large;
+}
+th{
+    background-color: #4d2222;
+    font-size: x-large;
+}
+td{
+    background-color: #371818;
+    
+}
+tr th, td{
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    color: white
+    
 }
 
-
-table {
-width: 100%;
-border-collapse: collapse;
-text-align: center;
-}
-
-
-th {
-background-color: #4d2222;
-color: white;
-font-size: 22px;
-}
-
-
-td {
-background-color: #371818;
-color: white;
-font-size: 20px;
-}
-
-
-th, td {
-border: 2px solid black;
-padding: 8px;
-}
-
-
-@media screen and (max-width: 700px) {
-.container {
-grid-template-columns: 1fr;
-grid-template-areas:
-"h"
-"n"
-"a"
-"m"
-"s";
-}
+@media screen and (max-width:300px){
+    main{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "h"
+    "n"
+    "a"
+    "m"
+    "s";
+    }
 }
 
 
