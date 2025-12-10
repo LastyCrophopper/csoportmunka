@@ -1,5 +1,4 @@
 *{
-   
     font-family: 'Italianno';
 }
 @font-face {
@@ -10,11 +9,9 @@ body{
      background-color: #241919;
      margin: 0;
 }
-/* oldalszerkezet */
+
 main{
     width:100%;
-
-   
     background-color: #241919;
     margin: auto;
     display: grid;
@@ -60,9 +57,7 @@ nav{
     padding-top:  16px;
     text-align: center;
     border: 16px;
-  
     height: 100px;
-   
     grid-area: n;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,11 +80,9 @@ p{
     font-size: 25px;
 }
 table{
-    
     margin: auto;
     border-spacing: 0px;
     font-size: large;
-    
 }
 th{
     background-color: #4d2222;
