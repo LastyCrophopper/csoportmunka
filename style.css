@@ -1,36 +1,53 @@
-*{
-    font-family: italianno
-}
+@font-face {
+    font-family: 'Italianno';
+    src: url(font/Italianno-Regular.ttf);
 
+}
+*{
+    
+    font-family: 'Italianno';
+}
 body{
     background-image: url(kepek/fooldal_backgound.png);
-    width: auto;
-    margin: none;
+    background-repeat: no-repeat;
 }
 
 header{
     background-color: rgba(93, 76, 76, 1);
     color: white;
-    padding: 8px;
-    padding-top:  16px;
+    padding: 4px;
+    padding-top:  8px;
+    padding-bottom:  8px;
     margin: auto;
+    border: 8px;
+    width: 1920px;
     height: 100px;
     text-align: center;
+    grid-area: h;
+    font-size: 20px;
 }
 
 nav{
-    padding: 50px;
+    
+    color: white;
+    padding: 8px;
+    padding-top:  16px;
     text-align: center;
+    border: 16px;
+    width: 1920px;
+    height: 100px;
+    margin: auto;
+    grid-area: n;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "n n";
 }
 
 a{
     color: white;
-    background-color: brown;
+    background-color: rgba(93, 76, 76, 1);
     text-decoration: none;
-    border: 2px solid brown;
-    border-radius: 100%;
+    border-radius: 149px;
     padding: 15px;
     margin: auto
 }
