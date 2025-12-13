@@ -34,7 +34,7 @@ article{
 }
 
 img{
-    max-width: 350px;
+    max-width: 450px;
 }
 header{
     background-color: rgba(93, 76, 76, 1);
@@ -53,6 +53,7 @@ nav{
     color: white;
     padding: 8px;
     padding-top:  16px;
+    font-size: large;
     text-align: center;
     border: 16px;
     height: 100px;
@@ -75,7 +76,7 @@ nav a{
 
 p{
     color: #775C44;
-    font-size: 25px;
+    font-size: 35px;
 }
 table{
     margin: auto;
